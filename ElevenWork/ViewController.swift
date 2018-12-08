@@ -28,6 +28,7 @@ class ViewController: UIViewController {
             secVc.newAccount = account.text!
             secVc.newPassword = password.text!
             secVc.newZone = myZone.text!
+            //print("here")
         }
     }
     

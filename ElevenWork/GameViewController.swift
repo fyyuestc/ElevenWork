@@ -15,12 +15,14 @@ class GameViewController: UIViewController {
     var newZone = ""
     
     @IBOutlet weak var accountText: UITextField!
-    
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var zoneText: UITextField!
     
     
     override func viewDidLoad() {
+        accountText.text = newAccount
+        passwordText.text = newPassword
+        zoneText.text = newZone
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
